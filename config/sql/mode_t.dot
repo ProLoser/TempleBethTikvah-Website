@@ -1,0 +1,22 @@
+digraph G {
+	overlap=false;
+	splines=true;
+	node [fontname="Helvetica",fontsize=9];
+	edge [fontname="Helvetica",fontsize=8];
+	ranksep=0.1;
+	nodesep=0.1;
+	_schema_info [shape="plaintext", label="2008", fontname="Helvetica",fontsize=8];
+	"BoardMember" [label="{BoardMember|id : integer[4]\ncreated : datetime\nposition : string[50]\nname : string[30]\nemail : string[50]\nboard : boolean[1]\norder : integer[4]\n}" shape="record"];
+	"ContactUsEmail" [label="{ContactUsEmail|id : integer[11]\ncreated : datetime\ncategory : integer[4]\nname : string[30]\nemail : string[50]\nsubject : string[150]\nmessage : text\n}" shape="record"];
+	"Feature" [label="{Feature|id : integer[11]\ncreated : datetime\nfeature : string\ncategory : boolean[1]\nfinished : boolean[1]\n}" shape="record"];
+	"GoogleAppAccount" [label="{GoogleAppAccount|id : integer[11]\nentered : datetime\nusername : string[15]\nname_first : string[15]\nname_last : string[15]\nemail : string[40]\npassword : string[15]\nregistered : boolean[1]\n}" shape="record"];
+	"GoogleAppSite" [label="{GoogleAppSite|id : integer[11]\ncreated : datetime\nname : string\nurl : string\npublished : boolean[1]\ndescription : text\n}" shape="record"];
+	"Message" [label="{Message|id : integer[11]\ncreated : datetime\nmodified : datetime\ncategory : enum('weeklyRabbi','monthlyRabbi','monthlyPresident','monthlyEclc','monthlyReligiousSchool','monthlyMensClub','monthlySisterhood')[22]\npublished : date\ntitle : string[150]\nmessage : text\n}" shape="record"];
+	"Prayer" [label="{Prayer|id : integer[11]\ncreated : datetime\nmodified : datetime\nname : string[300]\nprayer_audio : string[255]\nprayer_text : text\nprayer_text_file : string[255]\n}" shape="record"];
+	"Scroll" [label="{Scroll|id : integer[11]\ncreated : datetime\nmodified : datetime\nfilename : string[255]\npublished : date\n}" shape="record"];
+	"Sermon" [label="{Sermon|id : integer[11]\ncreated : datetime\nmodified : datetime\npublished : date\nfilename : string[255]\ntitle : string[300]\n}" shape="record"];
+	"Simcha" [label="{Simcha|id : integer[11]\ncreated : datetime\nmodified : datetime\ndate : date\nfirst_name : string[100]\nlast_name : string[100]\ncategory : enum('birthday','anniversary')[11]\n}" shape="record"];
+	"User" [label="{User|id : integer[11]\ncreated : datetime\nmodified : datetime\nusername : string[50]\npassword : string[50]\nemail : string[50]\n}" shape="record"];
+	"WishListItem" [label="{WishListItem|id : integer[11]\ncreated : datetime\nmodified : datetime\nitem : string[300]\n}" shape="record"];
+	"Yartzeit" [label="{Yartzeit|id : integer[11]\ncreated : datetime\nmodified : datetime\ndate : date\nfirst_name : string[100]\nlast_name : string[100]\nmemorial_plaque : boolean[1]\n}" shape="record"];
+}

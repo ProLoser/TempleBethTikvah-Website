@@ -1,0 +1,40 @@
+.register {
+	margin: 20px 0;
+}
+.register label {
+	float: none;
+	width: auto;
+	text-align: left;
+}
+.register .input {
+	margin: 10px;
+	float: left;
+}
+.register .checkbox input {
+	display: inline;
+	width: auto;
+	margin-right: 10px;
+} 
+.register .checkbox label {
+	display: inline;
+}
+.register .submit {
+}
+.register fieldset {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.totals input, .totals label, .totals .input, .totals select {
+	display: inline;
+	margin: 10px 5px;
+	width: auto;
+}
+
+.add {
+	color: green;
+	text-decoration: underline;
+}
+.totals label {
+	float: none;
+}

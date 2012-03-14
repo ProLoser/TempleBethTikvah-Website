@@ -1,0 +1,2 @@
+<h1>Live Construction Feed</h1>
+<embed src="http://player.stickam.com/stickamPlayer/177942018-10091298" type="application/x-shockwave-flash"" wmode="transparent" width="480" height="480" scale="noscale" allowScriptAccess="always" allowFullScreen="true" style="position:relative;left:120px;"></embed>

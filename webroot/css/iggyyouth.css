@@ -1,0 +1,15 @@
+#iggynav {
+	background: url(../img/iggy_youth/logo.png) no-repeat center;
+	position: relative;
+	height: 397px;
+}
+#iggynav a {
+	position: absolute;
+	font-size: 120%;
+	font-weight: bold;
+}
+#iggynav #advisors { left: 30px; top: 170px; }
+#iggynav #post { left: 30px; top: 270px; }
+#iggynav #gallery { right: 25px; top: 150px; }
+#iggynav #contact { right: 40px; top: 230px; }
+#iggynav #membership { right: 5px; top: 310px; }

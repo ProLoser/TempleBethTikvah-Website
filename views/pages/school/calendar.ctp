@@ -1,0 +1,3 @@
+<h1><?php echo $this->pageTitle = 'Religious School Calendar'?></h1>
+
+<iframe src="http://www.google.com/calendar/hosted/templebethtikvah.com/embed?showTitle=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=ericvanraalte%40templebethtikvah.com&amp;color=%23A32929&amp;src=en.jewish%23holiday%40group.v.calendar.google.com&amp;color=%23060D5E&amp;ctz=America%2FLos_Angeles" style="margin-top:20px;border-width:0;width:100%;height: 650px" frameborder="0" scrolling="no"></iframe>

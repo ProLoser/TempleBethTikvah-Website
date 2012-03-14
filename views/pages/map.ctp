@@ -1,0 +1,4 @@
+<?php $this->pageTitle = ': Map' ?>
+<h1>Map to Temple Beth Tikvah</h1>
+<p>Click &quot;To Here&quot; to put in your own address and find directions. To view a larger map click <a href="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=1600+N+Acacia+Ave++Fullerton,+CA+92831-1207&amp;sll=34.105706,-117.656039&amp;sspn=0.008848,0.020041&amp;ie=UTF8&amp;ll=33.898774,-117.893515&amp;spn=0.035621,0.060081&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">Here</a></p>
+<iframe width="700" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=1600+N+Acacia+Ave++Fullerton,+CA+92831-1207&amp;sll=34.105706,-117.656039&amp;sspn=0.008848,0.020041&amp;ie=UTF8&amp;s=AARTsJoCdyfk27UkhkXGS6vokfRVD7ZaEg&amp;ll=33.898774,-117.893515&amp;spn=0.035621,0.060081&amp;z=14&amp;output=embed"></iframe>
